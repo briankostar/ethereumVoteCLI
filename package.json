@@ -1,0 +1,34 @@
+{
+  "name": "web3-engineering-assignment",
+  "version": "1.0.0",
+  "description": "An assignment for prospective web3 engineers @ CDx",
+  "main": "\"\"",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@0xproject/dev-utils": "^1.0.11",
+    "chai": "^4.2.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "dotenv": "^6.1.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.0",
+    "js-sha3": "^0.8.0",
+    "moment": "^2.22.2",
+    "node-persist": "^3.0.1",
+    "truffle": "5.0.0-beta.1",
+    "web3": "^1.0.0-beta.36"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate",
+    "start": "node ./cli/cli.js"
+  },
+  "author": "Julian Wilson <julian@cdxproject.com>",
+  "license": "MIT",
+  "bin": {
+    "ethvote": "./cli/cli.js"
+  }
+}
